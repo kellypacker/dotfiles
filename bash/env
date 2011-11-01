@@ -1,0 +1,4 @@
+export PATH=$PATH:$HOME/bin
+
+[[ -s "/Users/kellypacker/.rvm/scripts/rvm" ]] && source "/Users/kellypacker/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+

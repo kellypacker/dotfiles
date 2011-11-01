@@ -1,0 +1,36 @@
+#dirs
+alias dk='cd /Users/kellypacker/Desktop'
+alias sites='cd /Users/kellypacker/Sites'
+alias cdsbk='cdstest_backup_git.sh'
+alias ll='ls -lahG'
+alias ..='cd ..'
+
+alias ea="mvim ~/bin/dotfiles/bash/aliases"
+alias essh="mvim ~/bin/dotfiles/ssh/config"
+
+alias tu='top -o cpu' #cpu
+alias tm='top -o vsize' #memory
+
+#git
+function gg {
+	git commit -v -a -m "$*"
+}
+alias ga='git add'
+alias gp='git push'
+alias gl='git log'
+alias gs='git status'
+alias gd='git diff'
+alias gdc='git diff --cached'
+alias gm='git commit -m'
+alias gma='git commit -am'
+alias gb='git branch'
+alias gc='git checkout'
+alias gra='git remote add'
+alias grr='git remote rm'
+alias gpu='git pull'
+alias gcl='git clone'
+
+
+#specific dirs
+alias mp="cd /Users/kellypacker/Sites/MotivePower/cdstest.dev/Motive-EE"
+alias ee="cd ~/Sites/ee2master/ee2master.dev/"

@@ -1,0 +1,48 @@
+Host rootcsbox
+User root
+HostName consider-design.org
+
+Host oldcsbox
+User csbox
+HostName consider-design.org
+
+Host csbox
+User csbox
+HostName 70.32.75.227
+
+Host rootcrate
+User root
+HostName cratehost.com
+
+Host sarnoffcr
+User sarnoffcourtreporters
+HostName 74.212.227.214
+Port 2222
+
+Host pma
+User pma-adr
+HostName 74.212.227.214
+Port 2222
+
+Host sarnofflaw
+User sarnofflaw
+HostName 74.212.227.214
+Port 2222
+
+Host sdiscovery
+User sarnoffdiscovery
+HostName 74.212.227.214
+Port 2222
+
+Host memjet
+User memjet_main
+HostName memjet.com
+
+Host wabtestuser
+User wabtestuser
+HostName 192.168.100.192
+
+Host kringle
+User soapbox
+HostName kringlecandle.com
+
