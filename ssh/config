@@ -2,6 +2,10 @@ Host rootcsbox
 User root
 HostName consider-design.org
 
+Host kpcsbox
+User kellypacker
+HostName 70.32.75.227
+
 Host oldcsbox
 User csbox
 HostName consider-design.org
@@ -36,7 +40,7 @@ Port 2222
 
 Host memjet
 User memjet_main
-HostName memjet.com
+HostName 70.32.112.118
 
 Host wabtestuser
 User wabtestuser
@@ -45,4 +49,8 @@ HostName 192.168.100.192
 Host kringle
 User soapbox
 HostName kringlecandle.com
+
+Host ddtsi
+User ddtsiadmin
+HostName 70.32.112.110
 
