@@ -1,4 +1,10 @@
-export PATH=$PATH:$HOME/bin
-
-[[ -s "/Users/kellypacker/.rvm/scripts/rvm" ]] && source "/Users/kellypacker/.rvm/scripts/rvm"  # This loads RVM into a shell session.
-
+#export PATH=$PATH:$HOME/bin
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/mysql/bin:/Library/PostgreSQL/9.1/bin:$PATH:$HOME/bin:/usr/local/bin/gcc-4.2"
+#export DYLD_LIBRARY_PATH=/usr/local/mysql/lib/ 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.#added for python 
+export GEM_HOME=$HOME/.rvm/gems
+export WORKON_HOME=$HOME/.virtualenvs
+export CPPFLAGS=-I/opt/X11/include #problems with ruby and gcc
+#source /usr/local/bin/virtualenvwrapper.sh # where Homebrew places it
+export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages' # optional
+#export PYTHONPATH=$PYTHONPATH:/Users/dan/pymodules 
